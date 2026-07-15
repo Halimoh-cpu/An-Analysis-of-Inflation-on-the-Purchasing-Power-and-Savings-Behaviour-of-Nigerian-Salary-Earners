@@ -1,40 +1,40 @@
 # An-Analysis-of-Inflation-on-the-Purchasing-Power-and-Savings-Behaviour-of-Nigerian-Salary-Earners
-Final Data Analysis Project: Seeding Africa Data Analysis Scholarship Institution: 
-FEMTECH Information Technology Institute Researcher: 
-Olatunji, Halimoh Temidayo 
-Date: June 2026
+## Final Data Analysis Project: Seeding Africa Data Analysis Scholarship Institution: 
+## FEMTECH Information Technology Institute Researcher: 
+## Olatunji, Halimoh Temidayo 
+## Date: June 2026
 
-#Research Objectives
-#Objective 
-1 Assess the current purchasing power of Nigerian salary earners and how inflation has affected their ability to meet basic financial needs
-2 Identify the specific expenditure categories most severely impacted by inflation
-3 Examine the extent to which inflation has reduced savings capacity and altered financial planning behaviour
-4 Determine whether inflation impact differs significantly by income level, gender, and employment sector
-5 Evaluate financial coping strategies currently adopted and recommend the most effective approaches
+# Research Objectives
+# Objective 
+### 1 Assess the current purchasing power of Nigerian salary earners and how inflation has affected their ability to meet basic financial needs
+### 2 Identify the specific expenditure categories most severely impacted by inflation
+### 3 Examine the extent to which inflation has reduced savings capacity and altered financial planning behaviour
+### 4 Determine whether inflation impact differs significantly by income level, gender, and employment sector
+### 5 Evaluate financial coping strategies currently adopted and recommend the most effective approaches
 
-#Research Questions
-To what extent has inflation reduced the purchasing power of Nigerian salary earners?
-Which expenditure categories have been most severely affected by inflation?
-How has inflation reduced the savings capacity and altered the financial planning behaviour of salary earners?
-Does the impact of inflation differ significantly by income level, gender, and employment sector?
-Which financial coping strategies are currently being adopted and how effective are they?
+# Research Questions
+### To what extent has inflation reduced the purchasing power of Nigerian salary earners?
+### Which expenditure categories have been most severely affected by inflation?
+### How has inflation reduced the savings capacity and altered the financial planning behaviour of salary earners?
+### Does the impact of inflation differ significantly by income level, gender, and employment sector?
+### Which financial coping strategies are currently being adopted and how effective are they?
 
-#Key Findings at a Glance
+# Key Findings at a Glance
 
-Purchasing Power Decline Rate 49.7%, Nearly 1 in 2 salary earners affected. 
-Spending 70%+ of Salary on Essentials 70.86%, Virtually nothing left for savings. 
-Debt Rate 40.5%, Borrowing to cover basic expenses. 
-Stopped or Reduced Saving 57.28% Savings crisis confirmed. 
-Completely Stopped Saving 27.1%, Nothing left at month end. 
-Depleted Savings Completely 39.32%, Largest single debt status group. 
-Genuinely Financially Stable 20.16%, Only 1 in 5 respondents. 
-Most Affected Expenditure, Food & Groceries, 3.8/5,  Second Most Affected Transportation & Fuel, 3.4/5, Third Most Affected Healthcare, 3.1/5
-Most Struggling Income Group Below ₦50,000, 54.24% struggling 
-Most Improved Income Group Above ₦500,000, 67.39% improved
-Most Affected Gender Male
-Most Affected SectorPublic Sector (2.7 impact score)
-Poorest Earners' Strategy Borrowing Money — 49.15%
-Highest Earners' Strategy Cooperative Savings — 47.83%
+### Purchasing Power Decline Rate 49.7%, Nearly 1 in 2 salary earners affected. 
+### Spending 70%+ of Salary on Essentials 70.86%, Virtually nothing left for savings. 
+### Debt Rate 40.5%, Borrowing to cover basic expenses. 
+### Stopped or Reduced Saving 57.28% Savings crisis confirmed. 
+### Completely Stopped Saving 27.1%, Nothing left at month end. 
+### Depleted Savings Completely 39.32%, Largest single debt status group. 
+### Genuinely Financially Stable 20.16%, Only 1 in 5 respondents. 
+### Most Affected Expenditure, Food & Groceries, 3.8/5,  Second Most Affected Transportation & Fuel, 3.4/5, Third Most Affected Healthcare, 3.1/5
+### Most Struggling Income Group Below ₦50,000, 54.24% struggling 
+### Most Improved Income Group Above ₦500,000, 67.39% improved
+### Most Affected Gender Male
+### Most Affected SectorPublic Sector (2.7 impact score)
+### Poorest Earners' Strategy Borrowing Money — 49.15%
+### Highest Earners' Strategy Cooperative Savings — 47.83%
 
 # Statistical Analysis
 
@@ -72,20 +72,20 @@ MetricValuePearson r0.6454p-value2.27 × 10⁻⁶⁰Relationship StrengthModerat
     └── survey_questionnaire.pdf          ← Original 15-question survey instrument
 
 
-📊 Dashboard Pages
+# Dashboard Pages
 
-The Power BI dashboard consists of 6 interactive pages:
+### The Power BI dashboard consists of 6 interactive pages:
 
-Page Title Content
-1 Dashboard Overview: Total respondents, headline KPIs, demographic breakdown
-2 Purchasing Power Analysis: Salary adequacy, income expenditure, sector breakdown
-3 Expenditure Impact Analysis: Category rankings, sector and income group comparisons
-4 Savings Behaviour Analysis: Savings habits, debt status, income group breakdown
-5 Demographic Impact Analysis: Gender, age group, sector, income group comparisons
-6 Coping Strategies & Recommendations: Overall strategies, income gradient, sector patterns
+### Page Title Content
+### 1 Dashboard Overview: Total respondents, headline KPIs, demographic breakdown
+### 2 Purchasing Power Analysis: Salary adequacy, income expenditure, sector breakdown
+### 3 Expenditure Impact Analysis: Category rankings, sector and income group comparisons
+### 4 Savings Behaviour Analysis: Savings habits, debt status, income group breakdown
+### 5 Demographic Impact Analysis: Gender, age group, sector, income group comparisons
+### 6 Coping Strategies & Recommendations: Overall strategies, income gradient, sector patterns
 
 
-All pages include interactive slicers for Gender, Age Group, Employment Sector, and Monthly Income allowing dynamic filtering across all visuals simultaneously.
+## All pages include interactive slicers for Gender, Age Group, Employment Sector, and Monthly Income allowing dynamic filtering across all visuals simultaneously.
 
 🗄️ SQL Analysis Covers
 
@@ -123,24 +123,24 @@ python# Libraries used
 import pandas as pd
 from scipy import stats
 
-# Pearson Correlation Analysis
-# Variables: Salary Adequacy vs Savings Behaviour
-# r = 0.6454
-# p-value = 2.27e-60
-# Confidence Level: 95%
-# Result: Moderate Positive — Extremely Statistically Significant
+## Pearson Correlation Analysis
+## Variables: Salary Adequacy vs Savings Behaviour
+## r = 0.6454
+## p-value = 2.27e-60
+## Confidence Level: 95%
+## Result: Moderate Positive — Extremely Statistically Significant
 
-#Recommendations
+# Recommendations
 
-#RecommendationDirected At
-1 Annual minimum wage review tied to Consumer Price IndexFederal Government
+### Recommendation Directed At
+1 Annual minimum wage review tied to Consumer Price Index Federal Government
 2 Targeted food price stabilisation through subsidies and storage infrastructure Federal & State Governments
 3 Introduction of Cost of Living Allowances covering food, transport and healthcare Employers 
 4 Emergency micro-savings accounts and low-interest credit facilities Financial Institutions
 5 Income diversification alongside primary salarySalary Earners
 6 Active membership in cooperative savings groups (Ajo/Esusu) All Salary Earners
 7 Expand social protection programmes to cover the working poor Federal Government
-8 Workplace financial literacy programmes on budgeting and debt managementEmployers & Government
+8 Workplace financial literacy programmes on budgeting and debt management Employers and Government
 
 # Methodology
 
@@ -149,16 +149,17 @@ Element Detail Research Design Descriptive and Analytical Survey Data Type Prima
 
 # Questionnaire Structure
 
-Section Questions Focus 
-A — Demographics Q1–Q4 Gender, age, employment sector, monthly income 
-B — Purchasing Power Q5–Q7 Salary adequacy, expenditure share, debt status
-C — Expenditure Impact Q8–Q12 Likert ratings — food, Transportation and fuel, healthcare
-D — Savings & CopingQ13–Q14Savings habit change, primary coping strategyE — Open EndedQ15Respondent's recommended solutionTotal15
+### Section Questions Focus 
+### A — Demographics Q1–Q4 Gender, age, employment sector, monthly income 
+### B — Purchasing Power Q5–Q7 Salary adequacy, expenditure share, debt status
+### C — Expenditure Impact Q8–Q12 Likert ratings — food, Transportation and fuel, healthcare
+### D — Savings & Coping Q13–Q14 Savings habit change, primary coping strategy
+### E — Open Ended: Q15 Respondent's recommended solution
 
 
 # Respondent Profile
 
-Demographic Dominant Group Percentage Employment SectorPrivate Sector 44.51%Age Group36–45 Years 42.32% Income Bracket ₦151,000 – ₦300,00027.54% Gender Male 52.10% Work Experience 3 Years and Above 100% (screening criterion)
+### Demographic Dominant Group Percentage Employment SectorPrivate Sector 44.51%Age Group36–45 Years 42.32% Income Bracket ₦151,000 – ₦300,00027.54% Gender Male 52.10% Work Experience 3 Years and Above 100% (screening criterion)
 
 # About This Project
 
