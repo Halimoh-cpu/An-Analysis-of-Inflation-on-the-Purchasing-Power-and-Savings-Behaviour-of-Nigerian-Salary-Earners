@@ -33,14 +33,14 @@
 ### Most Improved Income Group Above ₦500,000, 67.39% improved
 ### Most Affected Gender Male
 ### Most Affected SectorPublic Sector (2.7 impact score)
-### Poorest Earners' Strategy Borrowing Money — 49.15%
-### Highest Earners' Strategy Cooperative Savings — 47.83%
+### Poorest Earners' Strategy Borrowing Money: 49.15%
+### Highest Earners' Strategy Cooperative Savings: 47.83%
 
 # Statistical Analysis
 
-Pearson Correlation: Salary Adequacy vs Savings Behaviour
+### Pearson Correlation: Salary Adequacy vs Savings Behaviour
 
-MetricValuePearson r0.6454p-value2.27 × 10⁻⁶⁰Relationship StrengthModerate PositiveStatistically SignificantYESConfidence Level95%
+### Metric Value Pearson: r 0.6454p-value2.27 × 10⁻⁶⁰, Relationship Strength: Moderate Positive, Statistically Significant: YES, Confidence Level: 95%
 
 
 # Repository Structure and Tool Used
@@ -133,18 +133,26 @@ from scipy import stats
 # Recommendations
 
 ### Recommendation Directed At
-1 Annual minimum wage review tied to Consumer Price Index Federal Government
-2 Targeted food price stabilisation through subsidies and storage infrastructure Federal & State Governments
-3 Introduction of Cost of Living Allowances covering food, transport and healthcare Employers 
-4 Emergency micro-savings accounts and low-interest credit facilities Financial Institutions
-5 Income diversification alongside primary salarySalary Earners
-6 Active membership in cooperative savings groups (Ajo/Esusu) All Salary Earners
-7 Expand social protection programmes to cover the working poor Federal Government
-8 Workplace financial literacy programmes on budgeting and debt management Employers and Government
+### 1 Annual minimum wage review tied to Consumer Price Index Federal Government
+### 2 Targeted food price stabilisation through subsidies and storage infrastructure Federal & State Governments
+### 3 Introduction of Cost of Living Allowances covering food, transport and healthcare Employers 
+### 4 Emergency micro-savings accounts and low-interest credit facilities Financial Institutions
+### 5 Income diversification alongside primary salarySalary Earners
+### 6 Active membership in cooperative savings groups (Ajo/Esusu) All Salary Earners
+### 7 Expand social protection programmes to cover the working poor Federal Government
+### 8 Workplace financial literacy programmes on budgeting and debt management Employers and Government
 
 # Methodology
 
-Element Detail Research Design Descriptive and Analytical Survey Data Type Primary Data Collection Tool Structured Questionnaire via Google FormsSample Size 501 respondents Sampling Method Convenience Sampling Eligibility Criterion Minimum 3 years of salary-earning experience Distribution WhatsApp, LinkedIn, Email, Social Media Study Scope Nigeria — All geopolitical zonesLikert Scale1 = Not Affected at All to 5 = Extremely AffectedStatistical TestPearson Correlation (scipy.stats)
+### Element Detail
+### Research Design: Descriptive and Analytical 
+### Survey Data Type: Primary Data Collection 
+### Tool: Structured Questionnaire via Google 
+### Forms Sample Size 501 respondents 
+### Sampling Method: Convenience Sampling 
+### Eligibility Criterion: Minimum 3 years of salary-earning experience 
+### Distribution: WhatsApp, LinkedIn, Email, Social Media Study Scope Nigeria; All geopolitical zones
+### Likert Scale: 1 = Not Affected at All to 5 = Extremely Affected Statistical Test Pearson Correlation (scipy.stats)
 
 
 # Questionnaire Structure
@@ -159,7 +167,7 @@ Element Detail Research Design Descriptive and Analytical Survey Data Type Prima
 
 # Respondent Profile
 
-### Demographic Dominant Group Percentage Employment SectorPrivate Sector 44.51%Age Group36–45 Years 42.32% Income Bracket ₦151,000 – ₦300,00027.54% Gender Male 52.10% Work Experience 3 Years and Above 100% (screening criterion)
+### Demographic Dominant Group Percentage Employment SectorPrivate Sector 44.51% Age Group 36–45 Years 42.32% Income Bracket ₦151,000 – ₦300,00027.54% Gender Male 52.10% Work Experience 3 Years and Above 100% (screening criterion)
 
 # About This Project
 
@@ -173,11 +181,11 @@ June 2026
 
 # Acknowledgements
 
-Seeding Africa — For the life-changing scholarship opportunity that built confidence, capability, and a genuine career path
-FEMTECH IT Institute — Management and instructors for rigorous and deeply supportive training
-Project Coordinator and Instructor — For the honest feedback and guidance that made this work better
-501 Respondents — For taking time to honestly share their financial experiences. This project is yours as much as it is mine
-Classmates and Colleagues — For the shared journey, mutual support, and encouragement throughout
+### Seeding Africa, For the life-changing scholarship opportunity that built confidence, capability, and a genuine career path
+### FEMTECH IT Institute, Management and instructors for rigorous and deeply supportive training
+### Project Coordinator and Instructor, For the honest feedback and guidance that made this work better
+### 501 Respondents, For taking time to honestly share their financial experiences. This project is yours as much as it is mine
+### Classmates and Colleagues, For the shared journey, mutual support, and encouragement throughout
 
 
 A moderate positive relationship exists between salary adequacy and savings behaviour; as purchasing power declines, savings collapse follows. The p-value of 2.27 × 10⁻⁶⁰ is essentially zero, making this one of the most statistically significant findings possible.
