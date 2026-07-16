@@ -43,35 +43,30 @@
 ### Metric Value Pearson: r 0.6454p-value2.27 × 10⁻⁶⁰, Relationship Strength: Moderate Positive, Statistically Significant: YES, Confidence Level: 95%
 
 
-# Repository Structure and Tool Used
+## Tool and Analysis Workflow
 
-📦 inflation-purchasing-power-nigeria/
-│
-├── 📄 README.md                          ← You are here
-│
-├── 📊 data/
-│   ├── raw_survey_data.xlsx              ← Raw Google Forms export
-│   └── cleaned_survey_data.xlsx         ← Cleaned and recoded dataset
-│
-├── 📈 power_bi/
-│   └── inflation_analysis_dashboard.pbix ← Full interactive Power BI dashboard
-│
-├── 🗄️ sql/
-│   └── inflation_analysis_queries.sql    ← All SQL queries for full analysis
-│
-├── 🐍 python/
-│   └── pearson_correlation_analysis.py   ← Python statistical analysis script
-│
-├── 📑 presentation/
-│   └── inflation_analysis_presentation.pptx ← Full PowerPoint presentation
-│
-├── 📝 report/
-│   └── inflation_analysis_full_report.pdf   ← Complete project report (PDF)
-│
-└── 📋 questionnaire/
-    └── survey_questionnaire.pdf          ← Original 15-question survey instrument
-
-
+```text
+Raw Survey Data
+      │
+      ▼
+ Excel / Power Query
+(Data Cleaning & Transformation)
+      │
+      ▼
+ SQL
+(Data Exploration & Business Queries)
+      │
+      ▼
+ Python
+(Statistical Analysis & Validation)
+      │
+      ▼
+ Power BI
+(Interactive Dashboard & Insights)
+      │
+      ▼
+ Research Report & Presentation
+```
 # Dashboard Pages
 
 ### The Power BI dashboard consists of 6 interactive pages:
